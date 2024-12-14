@@ -1,0 +1,16 @@
+{
+	"name": "cvyl-archiver",
+	"scripts": {
+		"dev": "wrangler dev",
+		"deploy": "wrangler deploy --minify",
+		"build": "wrangler build"
+	},
+	"dependencies": {
+		"hono": "^4.6.13"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20241112.0",
+		"prettier": "^3.4.2",
+		"wrangler": "^3.88.0"
+	}
+}
